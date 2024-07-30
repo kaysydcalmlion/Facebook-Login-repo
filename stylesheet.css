@@ -1,0 +1,172 @@
+    /* stylesheet for system */
+
+html, body{
+    background-color: #f4f1ee;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    margin: 200px 0px 200px 250px;
+    margin-left: 250px;
+}
+.logo h1{
+    color:#167bf1;
+    font-family: "Open Sans", sans-serif;
+    font-size:50px;
+    letter-spacing: 1px;
+    line-height: 2px;
+}
+.logo p{
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 1px;
+}
+.container{
+    background-color: white;
+    width: 35%;
+    margin:100px 60px 100px 100px;
+    padding: 20px 30px 20px 20px;
+    border-radius: 6px;
+    box-shadow: 0 4px 4px rgb(174, 172, 172);
+}
+.container input[type="text"], input[type="password"]{
+    width: 95%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+}
+input[type="text"], input[type="password"]:focus{
+    outline: none;
+}
+.btn1 input[type="button"]{
+    width: 101%;
+    background-color: #167bf1;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+}
+.btn1 input[type="button"]:hover{
+    background-color:#68aaf6;
+    transition: 1s;
+}
+.forgot a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    color: #523ffa;
+    padding: 10px;
+}
+.bar{
+    border-bottom: 1px solid grey;
+    padding: 5px;
+}
+.btn2 input[type="button"]{
+    width: 45%;
+    background-color: green;
+    color: white;
+    margin: 8px 0 5px 140px;
+    padding: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.btn2 input[type="button"]:hover{
+    background-color: rgb(27, 182, 27);
+}
+p a:hover{
+    text-decoration: underline;
+}
+.foot{
+    float: right;
+    margin: -155px 210px;
+}
+.footer{
+    display: flex;
+    position: relative;
+    top: 60px;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+      /* stylesheet for mobile */
+
+@media  screen and (max-width:480px) {
+    html, body{
+        background-color: #eee; 
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .wrapper{
+        display: block;
+        justify-content: center;
+        text-align: center;
+    } 
+    .logo{
+        margin: 10% 30% 10% 30%;
+    }
+    .logo h1{
+        font-size: 30px;
+    }
+    .logo p{
+        line-height: ;
+        font-size:10px;
+    }
+    .container{
+        width: 80%;
+        margin: -15px 30px 10px 25px;
+        padding: px;
+    }
+    .container input[type="text"], input[type="password"]{
+        padding: 18px;
+        width: 95%;
+        height: 10px;
+    }
+    .btn1{
+        width: 103%;
+    }
+    .btn2{
+        margin:5px 60px -30px -35px;
+        width: 100%;
+    }
+    .bar{
+        margin-bottom: 1px 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
