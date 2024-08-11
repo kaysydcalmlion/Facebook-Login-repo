@@ -1,5 +1,4 @@
     /* stylesheet for system */
-
 html, body{
     background-color: #f4f1ee;
     margin: 0;
@@ -27,7 +26,7 @@ html, body{
 .container{
     background-color: white;
     width: 35%;
-    margin:100px 60px 100px 200px;
+    margin:100px 60px 100px 100px;
     padding: 20px 30px 20px 20px;
     border-radius: 6px;
     box-shadow: 0 4px 4px rgb(174, 172, 172);
@@ -42,11 +41,11 @@ input[type="text"], input[type="password"]:focus{
     outline: none;
 }
 .btn1 input[type="button"]{
-    width: 101%;
+    width: 100%;
     background-color: #167bf1;
     color: white;
     font-weight: bold;
-    padding: 15px;
+    padding: 12px;
     border: none;
     border-radius: 5px;
 }
@@ -87,7 +86,8 @@ p a:hover{
 }
 .foot{
     float: right;
-    margin: -155px 210px;
+    margin: -150px 150px;
+    width: 35%;
 }
 .footer{
     display: flex;
@@ -102,9 +102,10 @@ p a:hover{
     font-weight: bolder;
 }
 
+
       /* stylesheet for mobile */
 
-@media  screen and (max-width:480px) {
+@media  screen and (max-width:500px) {
     html, body{
         background-color: #eee; 
         margin-bottom: 0;
@@ -114,38 +115,69 @@ p a:hover{
         display: block;
         justify-content: center;
         text-align: center;
+        width: 90%;
+        height: 100vh;
+        margin: 5px auto 5px auto;
     } 
     .logo{
-        margin: 10% 30% 10% 30%;
+        margin: 10% auto 10% auto;
     }
     .logo h1{
         font-size: 30px;
     }
     .logo p{
-        line-height: ;
         font-size:10px;
     }
     .container{
-        width: 80%;
-        margin: -15px 30px 10px 25px;
-        padding: px;
+        width: auto;
+        height: auto;
+        margin: -15px auto 10px auto;
     }
     .container input[type="text"], input[type="password"]{
-        padding: 18px;
-        width: 95%;
-        height: 10px;
+        padding: 15px;
+        width: 90%;
+        height: 12px;
     }
     .btn1{
-        width: 103%;
+        width:100%;
+        margin: 0;
+    }
+    .btn1 input[type="button"]{
+        margin: 0 auto;
+        padding: 12  bvc.kjhgfdsagttpx;
     }
     .btn2{
-        margin:5px 60px -30px -35px;
-        width: 100%;
+        margin: 10px 50px;
+    }
+    .btn2 input[type="button"]{
+        width: auto;
+        margin: 10px auto;
+        float: center;
+    }
+    .forgot{
+        margin: 8px 0;
     }
     .bar{
-        margin-bottom: 1px 0;
+        margin: -10px 0;
+    }
+    .foot{
+        width: 100%;
+        margin: -140px 0 0 200px; 
+    }
+    .foot .footer{
+        font-size: 13px;
     }
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
