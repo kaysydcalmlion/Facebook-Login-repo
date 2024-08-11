@@ -10,14 +10,14 @@ html, body{
     justify-content: center;
 }
 .logo{
-    margin: 200px 0px 200px 250px;
-    margin-left: 250px;
+    margin: 200px 150px 200px 100px;
 }
 .logo h1{
     color:#167bf1;
     font-family: "Open Sans", sans-serif;
+    font-weight: 900;
     font-size:50px;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
     line-height: 2px;
 }
 .logo p{
@@ -27,7 +27,7 @@ html, body{
 .container{
     background-color: white;
     width: 35%;
-    margin:100px 60px 100px 100px;
+    margin:100px 60px 100px 200px;
     padding: 20px 30px 20px 20px;
     border-radius: 6px;
     box-shadow: 0 4px 4px rgb(174, 172, 172);
